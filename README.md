@@ -38,10 +38,11 @@ pip install selenium 
 
 4、快速验证测试
 
-
+![image](https://github.com/likang2005608/python-selenium-unittest-autoTest/blob/master/1.png)
 
 自动化测试框架
 
+![image](https://github.com/likang2005608/python-selenium-unittest-autoTest/blob/master/2.png)
 
 config目录中存放的是测试配置相关的文件，文件类型ini，包括测试的网址、浏览器驱动等信息
 framework目录中存放的是页面基础类base_page: 封装一些常用的页面操作方法；日志类 Logger: 封装日志输出及控制台输出方法
@@ -52,7 +53,7 @@ test_report用来存放输出的测试报告
 testsuites目录存放测试用例，包括test_base和单个测试用例
 1、config.ini配置信息如下：
 
-
+![image](https://github.com/likang2005608/python-selenium-unittest-autoTest/blob/master/3.png)
 
 2、framework目录下base_page的封装：
 
@@ -302,6 +303,7 @@ with open(DIR+'/test_report/'+filename,'wb') as f:
     runner.run(testsuite)
 6、测试报告展示
 
+![image](https://github.com/likang2005608/python-selenium-unittest-autoTest/blob/master/4.png)
 
 
 总结
